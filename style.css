@@ -39,5 +39,103 @@ nav a{
 .navigation a:hover{
     color:#601cfc;
 }
+section{
+    padding: 100px 200px;
 
+}
+.main {
+width: 100%;
+min-height:100vh ;
+display: flex;
+align-items: center;
+/* background-color: #313444; */
+background :url(back1.png) no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.main h2{
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
 
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #e9c153;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3{
+    font-size: 1.25em;
+    font-weight: 700;
+    color:white ;
+    letter-spacing: 1px;
+    margin-top:10px ;
+    margin-bottom: 30px;
+}
+.main-btn  {
+    background-color: #e9c153;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em ;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+.main-btn:hover{
+    background-color: #601cfc;
+    transform: scale(1.1);
+
+}
+.social-icons a {
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+.title{
+    display:flex;
+    justify-content: center;
+    color :#e9c153;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    
+
+}
+.card {
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%); 
+    border-radius: 25px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon {
+    font-size: 2.5em;
+    text-align: center;
+}
+.info h3 {
+    font-size: 1.2 em;
+    font-weight: 700;
+    margin: 10px;
+}
