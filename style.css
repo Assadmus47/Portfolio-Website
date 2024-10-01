@@ -8,5 +8,36 @@
     scroll-behavior: smooth;
 }
 
+header {
+    background-color: #313444;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+.logo{
+    color: #e9c153;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: 700;
+
+}
+nav a{
+    color: #e9c153;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color:#601cfc;
+}
 
 
