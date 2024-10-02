@@ -149,3 +149,56 @@ background-attachment: fixed;
 .footer-titt span {
     color: #e9c153;
 }
+.footer .social-icons a {
+    color: white;
+    font-size: 1.3em;
+    padding-right:0 12px 0 0;
+}
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 50px 20px;
+    }
+    .main-content h3{
+        font-size: 1.6em;
+    }
+    .main-contenth2{
+        font-size: 1em;
+    }
+    .content{
+        flex-direction:column ;
+        align-items: center;
+    }
+}
+@media (max-width: 641px){
+    body{
+        font-size: 12px;
+       
+    }
+    .main-content h3{
+        font-size: 1.4em;
+    }
+    .main-content h2{
+        font-size: 0.8em;
+    }
+}
+@media (max-width: 300px){
+    body{
+        font-size: 10px;
+        
+    }
+    .main-content h3{
+        font-size: 1.2em;
+    }
+    .main-content h2{
+        font-size: 0.6em;
+    }
+}
