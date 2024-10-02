@@ -139,3 +139,13 @@ background-attachment: fixed;
     font-weight: 700;
     margin: 10px;
 }
+.footer {
+    background-color: #313444;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-titt span {
+    color: #e9c153;
+}
