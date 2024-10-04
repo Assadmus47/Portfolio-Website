@@ -203,9 +203,28 @@ background-attachment: fixed;
     }
 }
 .cards{
-     background-color:#B08C74;
+     background-color:white;
+     
       
 }
 .card1{
-    background-color:#eae0d5 ;
+    background-color:white ;
+}
+.wast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #eae0d5;
+    padding: 30px;
+    position: relative;
+}
+
+.wasrt{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #eae0d5;
+    padding: 20px;
+    border-radius: 25px;
 }
